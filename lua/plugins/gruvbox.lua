@@ -19,13 +19,13 @@ return {
             invert_signs = false,
             invert_tabline = false,
             inverse = true, -- invert background for search, diffs, statuslines and errors
-            contrast = "", -- can be "hard", "soft" or empty string
+            contrast = "hard", -- can be "hard", "soft" or empty string
             palette_overrides = {},
             overrides = {},
             dim_inactive = false,
             transparent_mode = true,
         })
-        vim.o.background = "dark"
+        vim.o.background = "light"
         vim.cmd("colorscheme gruvbox")
     end
 
