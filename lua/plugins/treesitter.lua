@@ -6,7 +6,7 @@ return {
             ensure_installed = { "bash", "c", "cpp", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html", "css", "dockerfile", "php", "python" },
             sync_install = false,
             highlight = { enable = true },
-            indent = { enable = true },  
+            indent = { enable = true },
         })
     end
 }
