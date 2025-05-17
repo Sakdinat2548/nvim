@@ -21,6 +21,8 @@ return {
             vim.lsp.enable('lua_ls')
             vim.lsp.enable('ts_ls')
             vim.lsp.enable('vimls')
+            vim.lsp.enable('dockerfile-language-server')
+            vim.lsp.enable('docker-compose-language-service')
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
             vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
